@@ -17,6 +17,6 @@ port:
 
 
 ## qa
-- when something go worry, two step can help you:
-one: enter chrome://net-internals/#proxy in chrome , click 'Proxy/ Re-apply settings'.
-two: restart nginx and sock5 (sh start.sh)
+- when something go wrong, two step can help you:
+one: restart nginx and sock5 (sh start.sh)
+two: enter chrome://net-internals/#proxy in chrome , click 'Proxy/ Re-apply settings'.
