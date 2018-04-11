@@ -1950,6 +1950,7 @@ function FindProxyForURL(url, host) {
     ];
 
     var safeDomains = {
+        'rqd.sparta.mig.tencent-cloud.net': 1,
         '10010.com' : 1,
         '115.com' : 1,
         '123u.com' : 1,
@@ -2078,8 +2079,6 @@ function FindProxyForURL(url, host) {
         'docin.com' : 1,
         'donews.com' : 1,
         'dospy.com' : 1,
-        'douban.com' : 1,
-        'douban.fm' : 1,
         'duapp.com' : 1,
         'duba.net' : 1,
         'duomi.com' : 1,
@@ -2318,40 +2317,39 @@ function FindProxyForURL(url, host) {
         'zhihu.com' : 1,
         'zhimg.com' : 1,
         'zhubajie.com' : 1,
+        'bitbucket.org': 1,
         'zongheng.com' : 1
     };
 
     var dangerDomains = {
      // 'apple.com' : 1,
-        'jsfiddle.net': 1,
-        'www.trade-ideas.com' :1,
-        'www.payoneer.com' :1,
-        'www.interactivebrokers.com': 1,
-        'storage.googleapis.com': 1,
-        'www.google.com.hk' : 1,
-        'www.google.com.sg' :1,
-        'www.google.com' : 1,
-        'www.youtube.com': 1,
         'google.com' : 1,
         'twitter.com' : 1,
         'facebook.com' : 1,
         'yyets.com' : 1,
         'tw.yahoo.com' : 1,
         'youtube.com' : 1,
-        'www.finviz.com' : 1,
-        'finviz.com' : 1,
-        'elite.finviz.com' :1,
-        'autohotkey.com' : 1,
-        'stocktwits.com' : 1,
-        'www.tradingview.com' : 1,
-        'rentibook.weebly.com' : 1,
-        'goo.gl':1,
-        'marketchameleon.com':1,
-        'zaobao.com.sg' : 1
+        'paypal.com' : 1,
+        'zaobao.com.sg' : 1,
+        'www.itiger.com' : 1,
+        'breakoutwatch.com' : 1,
+        'translate.google.cn': 1,
+        'www.kanmeinv.cc':1,
+        'lb.benchmarkemail.com':1,
+        'www.yufeng-spring.com' : 1,
+        'translate.google.cn':1,
+        'https://translate.google.cn':1,
+        'finance.yahoo.com' : 1,
+        'http://t66y.com': 1
     };
 
     // see https://github.com/clowwindy/ChinaDNS/blob/master/chinadns/dnsrelay.py
     var fakeIps = {
+        '101.227.162.149':1,
+        '61.151.173.74':1,
+        '101.226.211.101' :1,
+        '60.12.142.174' :1,
+        '220.189.211.14' : 1,
         '74.125.127.102'  : 1,
         '74.125.155.102'  : 1,
         '74.125.39.102'   : 1,
@@ -2483,23 +2481,144 @@ function FindProxyForURL(url, host) {
     }
 
     function forward(url, host) {
+        if (dnsDomainIs( host,"music.wanda.cn")      ||  
+                dnsDomainIs( host,"wdcity.wanda.cn")     ||  
+                dnsDomainIs( host,"composing.wanda.cn"))
+        {
+            return "PROXY 10.199.75.12:8080"; 
+        } 
+
+        if (dnsDomainIs( host,".wanda.cn")           ||
+                dnsDomainIs( host,".wanda.com.cn")       ||
+                dnsDomainIs( host,".wandafilm.com")      ||
+                dnsDomainIs( host,".vans-china.com.cn")  ||
+                dnsDomainIs( host,".vans-china.cn")      ||
+                dnsDomainIs( host,".wandahotels.com")    ||
+                dnsDomainIs( host,".wanda-hotel.cn")     ||
+                dnsDomainIs( host,".wdghy.com")          ||
+                dnsDomainIs( host,".wandacinemas.com")   ||
+                dnsDomainIs( host,".wandacinemaline.com")||
+                dnsDomainIs( host,".wandawl.com")        ||
+                dnsDomainIs( host,".wanhaiwl.com")       ||
+                dnsDomainIs( host,".wandamoviepark.com") ||
+                dnsDomainIs( host,".ffan.com")           ||
+                dnsDomainIs( host,".wanhui.cn")          ||
+                dnsDomainIs( host,".99bill.com")         ||
+                dnsDomainIs( host,".99bills.com")        ||
+                dnsDomainIs( host,".wandafilm-dev.com")  ||
+                dnsDomainIs( host,".wandaperformace.com"))
+        {
+            return "DIRECT";   
+        }
+
+
+        else if (isInNet(host, "10.0.0.0",  "255.0.0.0")||
+                isInNet(host, "127.0.0.1",  "255.255.255.255")||
+                isInNet(host, "169.224.11.0",  "255.255.255.0"))    
+        {
+            return "DIRECT";
+        }
+
+
+        else if (isInNet(myIpAddress(), "10.15.128.0", "255.255.240.0")||
+                isInNet(myIpAddress(), "10.15.210.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.15.214.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.15.218.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.156.16.0", "255.255.248.0")||
+                isInNet(myIpAddress(), "10.15.222.0", "255.255.255.0"))
+        {
+            return "PROXY 10.15.206.38:8080";
+        }
+
+
+        else if (isInNet(myIpAddress(), "10.15.196.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.15.192.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.15.200.0", "255.255.252.0")||
+                isInNet(myIpAddress(), "10.15.188.0", "255.255.252.0"))
+        {
+            return "PROXY 10.15.206.30:8080";
+        }
+
+
+        else if (isInNet(myIpAddress(), "10.118.82.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.83.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.84.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.85.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.86.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.87.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.88.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.118.89.0", "255.255.255.0"))
+        {
+            return "PROXY 10.118.80.10:8080";
+
+        }
+
+        else if (isInNet(myIpAddress(), "10.1.32.0", "255.255.224.0")||
+                isInNet(myIpAddress(), "10.1.200.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.1.92.0", "255.255.255.128")||
+                isInNet(myIpAddress(), "10.1.172.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.1.96.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.1.126.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.1.201.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.1.128.0", "255.255.254.0")||
+                isInNet(myIpAddress(), "10.1.186.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.1.215.0", "255.255.255.0")||
+                isInNet(myIpAddress(), "10.1.175.0", "255.255.255.0"))
+        {
+            return "DIRECT";
+        }
+
+
+
+        else if (isInNet(myIpAddress(), "10.0.0.0", "255.0.0.0"))
+
+        {
+            return "PROXY 10.199.75.12:8080";
+        }
+
+        return "PROXY 10.199.75.12:8080";
+
+    }
+
+    // var proxy = 'SOCKS5:10.1.83.62:18000; DIRECT';
+    var proxy = 'SOCKS5 127.0.0.1:12812; SOCKS 127.0.0.1:12812; DIRECT';
+    // var proxy = 'SOCKS5 10.77.145.2:10082; SOCKS 10.77.145.2:10082; DIRECT';
+
+    // fix error message in FoxyProxy when switching tabs. http://verihy.me/posts/foxyproxy-pac/
+    if (typeof host === 'undefined'
+            || isPlainHostName(host)
+            || host === '127.0.0.1'
+            || host === 'localhost') {
         return 'DIRECT';
     }
-    
-    var proxy = 'SOCKS5 127.0.0.1:12812; SOCKS 127.0.0.1:12812; DIRECT';
-    // return proxy;
-    // fix error message in FoxyProxy when switching tabs. http://verihy.me/posts/foxyproxy-pac/
-    // if (typeof host === 'undefined'
-    //         || host === '127.0.0.1'
-    //         || host === 'localhost') {
-    //     return 'DIRECT';
-    // }
+
+    if (testDomain(host, safeDomains, true)) {
+        return forward(url, host);
+    }
 
     if (testDomain(host, dangerDomains)) {
         return proxy;
     }
 
-    return 'DIRECT';
+    if (safePorts[host.split(':')[1]]) {
+        return forward(url, host);
+    }
+
+    var strIp = dnsResolve(host);
+    if (!strIp) {
+        return proxy;
+    }
+
+    if (fakeIps[strIp]) {
+        return proxy;
+    }
+
+    var intIp = convertAddress(strIp);
+    if (match(intIp, list)) {
+        return forward(url, host);
+    }
+
+    return proxy;
 }
 
 

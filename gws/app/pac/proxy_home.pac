@@ -2323,6 +2323,9 @@ function FindProxyForURL(url, host) {
 
     var dangerDomains = {
      // 'apple.com' : 1,
+        'porn.com':1,
+        'ssl.google-analytics.com':1,
+        'www.handyin.com':1,
         'jsfiddle.net': 1,
         'www.trade-ideas.com' :1,
         'www.payoneer.com' :1,
