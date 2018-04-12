@@ -2323,6 +2323,7 @@ function FindProxyForURL(url, host) {
 
     var dangerDomains = {
      // 'apple.com' : 1,
+        'www.google.com.hk':1,
         'google.com' : 1,
         'twitter.com' : 1,
         'facebook.com' : 1,
@@ -2581,7 +2582,7 @@ function FindProxyForURL(url, host) {
     }
 
     // var proxy = 'SOCKS5:10.1.83.62:18000; DIRECT';
-    var proxy = 'SOCKS5 127.0.0.1:12812; SOCKS 127.0.0.1:12812; DIRECT';
+    var proxy = 'SOCKS5 10.213.42.222:12812; SOCKS 10.213.42.222:12812; DIRECT';
     // var proxy = 'SOCKS5 10.77.145.2:10082; SOCKS 10.77.145.2:10082; DIRECT';
 
     // fix error message in FoxyProxy when switching tabs. http://verihy.me/posts/foxyproxy-pac/
