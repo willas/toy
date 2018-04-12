@@ -2323,6 +2323,8 @@ function FindProxyForURL(url, host) {
 
     var dangerDomains = {
      // 'apple.com' : 1,
+        'dict.youdao.com':1,
+        'music.163.com':1,
         'www.google.com.hk':1,
         'google.com' : 1,
         'twitter.com' : 1,
@@ -2541,19 +2543,6 @@ function FindProxyForURL(url, host) {
         }
 
 
-        else if (isInNet(myIpAddress(), "10.118.82.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.83.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.84.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.85.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.86.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.87.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.88.0", "255.255.255.0")||
-                isInNet(myIpAddress(), "10.118.89.0", "255.255.255.0"))
-        {
-            return "PROXY 10.118.80.10:8080";
-
-        }
-
         else if (isInNet(myIpAddress(), "10.1.32.0", "255.255.224.0")||
                 isInNet(myIpAddress(), "10.1.200.0", "255.255.255.0")||
                 isInNet(myIpAddress(), "10.1.92.0", "255.255.255.128")||
@@ -2568,7 +2557,6 @@ function FindProxyForURL(url, host) {
         {
             return "DIRECT";
         }
-
 
 
         else if (isInNet(myIpAddress(), "10.0.0.0", "255.0.0.0"))
