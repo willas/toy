@@ -1,0 +1,514 @@
+2018-03-28 20:23:35,905 CRIT Set uid to user 501
+2018-03-28 20:23:36,229 INFO RPC interface 'supervisor' initialized
+2018-03-28 20:23:36,231 INFO daemonizing the supervisord process
+2018-03-28 20:23:36,232 CRIT could not write pidfile /var/supervisord/supervisord.pid
+2018-03-28 20:23:37,236 INFO spawned: 'ssh-nginx' with pid 88360
+2018-03-28 20:23:37,238 INFO spawned: 'ssh-aws_03' with pid 88361
+2018-03-28 20:23:37,241 INFO spawned: 'ssh-aws_02' with pid 88362
+2018-03-28 20:23:37,243 INFO spawned: 'ssh-aws_01' with pid 88363
+2018-03-28 20:23:37,246 INFO spawned: 'ssh-aws_00' with pid 88364
+2018-03-28 20:23:37,248 INFO spawned: 'ssh-aws_07' with pid 88365
+2018-03-28 20:23:37,250 INFO spawned: 'ssh-aws_06' with pid 88370
+2018-03-28 20:23:37,253 INFO spawned: 'ssh-aws_05' with pid 88374
+2018-03-28 20:23:37,256 INFO spawned: 'ssh-aws_04' with pid 88376
+2018-03-28 20:23:37,259 INFO spawned: 'ssh-aws_09' with pid 88379
+2018-03-28 20:23:37,263 INFO spawned: 'ssh-aws_08' with pid 88382
+2018-03-28 20:23:37,267 INFO spawned: 'ssh-php-fpm' with pid 88386
+2018-03-28 20:23:37,268 INFO success: ssh-nginx entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-28 20:23:37,268 INFO success: ssh-php-fpm entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-03-28 20:23:37,277 INFO exited: ssh-nginx (exit status 0; expected)
+2018-03-28 20:23:37,350 INFO exited: ssh-php-fpm (exit status 78; not expected)
+2018-03-28 20:23:38,351 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,352 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,352 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,352 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,352 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,353 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,353 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,353 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,353 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:23:38,353 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:52,797 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:24:52,797 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:24:52,800 INFO spawned: 'ssh-aws_03' with pid 88540
+2018-03-28 20:24:52,802 INFO spawned: 'ssh-aws_02' with pid 88541
+2018-03-28 20:24:52,803 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:24:52,804 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:24:52,804 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:24:52,804 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:24:52,809 INFO spawned: 'ssh-aws_01' with pid 88544
+2018-03-28 20:24:52,811 INFO spawned: 'ssh-aws_00' with pid 88547
+2018-03-28 20:24:52,813 INFO spawned: 'ssh-aws_07' with pid 88548
+2018-03-28 20:24:52,815 INFO spawned: 'ssh-aws_06' with pid 88549
+2018-03-28 20:24:52,816 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:24:52,816 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:24:52,817 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:24:52,817 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:24:52,820 INFO spawned: 'ssh-aws_05' with pid 88553
+2018-03-28 20:24:52,822 INFO spawned: 'ssh-aws_04' with pid 88556
+2018-03-28 20:24:52,824 INFO spawned: 'ssh-aws_09' with pid 88558
+2018-03-28 20:24:52,826 INFO spawned: 'ssh-aws_08' with pid 88561
+2018-03-28 20:24:53,841 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,841 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,841 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,841 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,841 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,841 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,841 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,842 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,842 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:24:53,842 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:08,828 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:26:08,840 INFO spawned: 'ssh-aws_03' with pid 88647
+2018-03-28 20:26:08,841 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:26:08,841 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:26:08,843 INFO spawned: 'ssh-aws_02' with pid 88648
+2018-03-28 20:26:08,846 INFO spawned: 'ssh-aws_01' with pid 88649
+2018-03-28 20:26:08,847 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:26:08,847 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:26:08,850 INFO spawned: 'ssh-aws_00' with pid 88652
+2018-03-28 20:26:08,853 INFO spawned: 'ssh-aws_07' with pid 88655
+2018-03-28 20:26:08,853 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:26:08,853 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:26:08,853 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:26:08,854 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:26:08,854 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:26:08,856 INFO spawned: 'ssh-aws_06' with pid 88658
+2018-03-28 20:26:08,859 INFO spawned: 'ssh-aws_05' with pid 88659
+2018-03-28 20:26:08,861 INFO spawned: 'ssh-aws_04' with pid 88662
+2018-03-28 20:26:08,863 INFO spawned: 'ssh-aws_09' with pid 88665
+2018-03-28 20:26:08,867 INFO spawned: 'ssh-aws_08' with pid 88667
+2018-03-28 20:26:09,881 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,881 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,881 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:26:09,882 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:24,327 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:27:24,331 INFO spawned: 'ssh-aws_03' with pid 88717
+2018-03-28 20:27:24,331 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:27:24,332 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:27:24,337 INFO spawned: 'ssh-aws_02' with pid 88718
+2018-03-28 20:27:24,339 INFO spawned: 'ssh-aws_01' with pid 88721
+2018-03-28 20:27:24,340 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:27:24,340 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:27:24,343 INFO spawned: 'ssh-aws_00' with pid 88722
+2018-03-28 20:27:24,345 INFO spawned: 'ssh-aws_07' with pid 88725
+2018-03-28 20:27:24,346 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:27:24,346 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:27:24,347 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:27:24,347 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:27:24,350 INFO spawned: 'ssh-aws_06' with pid 88728
+2018-03-28 20:27:24,353 INFO spawned: 'ssh-aws_05' with pid 88731
+2018-03-28 20:27:24,356 INFO spawned: 'ssh-aws_04' with pid 88734
+2018-03-28 20:27:24,360 INFO spawned: 'ssh-aws_09' with pid 88735
+2018-03-28 20:27:24,360 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:27:24,363 INFO spawned: 'ssh-aws_08' with pid 88739
+2018-03-28 20:27:25,375 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:27:25,376 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:39,909 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:28:39,917 INFO spawned: 'ssh-aws_03' with pid 88790
+2018-03-28 20:28:39,918 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:28:39,918 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:28:39,925 INFO spawned: 'ssh-aws_02' with pid 88792
+2018-03-28 20:28:39,927 INFO spawned: 'ssh-aws_01' with pid 88794
+2018-03-28 20:28:39,928 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:28:39,928 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:28:39,930 INFO spawned: 'ssh-aws_00' with pid 88795
+2018-03-28 20:28:39,933 INFO spawned: 'ssh-aws_07' with pid 88797
+2018-03-28 20:28:39,933 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:28:39,934 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:28:39,934 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:28:39,936 INFO spawned: 'ssh-aws_06' with pid 88801
+2018-03-28 20:28:39,939 INFO spawned: 'ssh-aws_05' with pid 88802
+2018-03-28 20:28:39,941 INFO spawned: 'ssh-aws_04' with pid 88805
+2018-03-28 20:28:39,942 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:28:39,943 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:28:39,945 INFO spawned: 'ssh-aws_09' with pid 88809
+2018-03-28 20:28:39,949 INFO spawned: 'ssh-aws_08' with pid 88811
+2018-03-28 20:28:40,962 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,963 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,963 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,963 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,963 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,963 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,963 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,964 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,964 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:28:40,964 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:55,481 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:29:55,488 INFO spawned: 'ssh-aws_03' with pid 88859
+2018-03-28 20:29:55,488 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:29:55,489 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:29:55,494 INFO spawned: 'ssh-aws_02' with pid 88860
+2018-03-28 20:29:55,496 INFO spawned: 'ssh-aws_01' with pid 88862
+2018-03-28 20:29:55,496 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:29:55,497 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:29:55,497 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:29:55,501 INFO spawned: 'ssh-aws_00' with pid 88864
+2018-03-28 20:29:55,503 INFO spawned: 'ssh-aws_07' with pid 88869
+2018-03-28 20:29:55,505 INFO spawned: 'ssh-aws_06' with pid 88870
+2018-03-28 20:29:55,505 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:29:55,506 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:29:55,506 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:29:55,509 INFO spawned: 'ssh-aws_05' with pid 88871
+2018-03-28 20:29:55,512 INFO spawned: 'ssh-aws_04' with pid 88875
+2018-03-28 20:29:55,514 INFO spawned: 'ssh-aws_09' with pid 88877
+2018-03-28 20:29:55,515 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:29:55,519 INFO spawned: 'ssh-aws_08' with pid 88880
+2018-03-28 20:29:56,533 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,533 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:29:56,534 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:10,971 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:31:10,977 INFO spawned: 'ssh-aws_03' with pid 88953
+2018-03-28 20:31:10,977 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:31:10,981 INFO spawned: 'ssh-aws_02' with pid 88954
+2018-03-28 20:31:10,981 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:31:10,989 INFO spawned: 'ssh-aws_01' with pid 88959
+2018-03-28 20:31:10,989 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:31:10,989 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:31:10,991 INFO spawned: 'ssh-aws_00' with pid 88960
+2018-03-28 20:31:10,993 INFO spawned: 'ssh-aws_07' with pid 88961
+2018-03-28 20:31:10,994 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:31:10,995 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:31:10,995 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:31:10,998 INFO spawned: 'ssh-aws_06' with pid 88964
+2018-03-28 20:31:11,000 INFO spawned: 'ssh-aws_05' with pid 88966
+2018-03-28 20:31:11,003 INFO spawned: 'ssh-aws_04' with pid 88970
+2018-03-28 20:31:11,003 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:31:11,003 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:31:11,007 INFO spawned: 'ssh-aws_09' with pid 88972
+2018-03-28 20:31:11,010 INFO spawned: 'ssh-aws_08' with pid 88975
+2018-03-28 20:31:12,024 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:31:12,024 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:26,456 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:32:26,460 INFO spawned: 'ssh-aws_03' with pid 89022
+2018-03-28 20:32:26,460 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:32:26,469 INFO spawned: 'ssh-aws_02' with pid 89025
+2018-03-28 20:32:26,470 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:32:26,472 INFO spawned: 'ssh-aws_01' with pid 89026
+2018-03-28 20:32:26,472 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:32:26,478 INFO spawned: 'ssh-aws_00' with pid 89029
+2018-03-28 20:32:26,478 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:32:26,481 INFO spawned: 'ssh-aws_07' with pid 89032
+2018-03-28 20:32:26,481 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:32:26,485 INFO spawned: 'ssh-aws_06' with pid 89033
+2018-03-28 20:32:26,486 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:32:26,486 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:32:26,490 INFO spawned: 'ssh-aws_05' with pid 89037
+2018-03-28 20:32:26,493 INFO spawned: 'ssh-aws_04' with pid 89039
+2018-03-28 20:32:26,494 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:32:26,494 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:32:26,496 INFO spawned: 'ssh-aws_09' with pid 89042
+2018-03-28 20:32:26,499 INFO spawned: 'ssh-aws_08' with pid 89043
+2018-03-28 20:32:27,511 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,511 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,512 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,512 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,512 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,513 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,513 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,513 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,513 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:32:27,513 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:41,938 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:33:41,952 INFO spawned: 'ssh-aws_03' with pid 89095
+2018-03-28 20:33:41,953 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:33:41,956 INFO spawned: 'ssh-aws_02' with pid 89096
+2018-03-28 20:33:41,957 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:33:41,963 INFO spawned: 'ssh-aws_01' with pid 89099
+2018-03-28 20:33:41,963 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:33:41,965 INFO spawned: 'ssh-aws_00' with pid 89102
+2018-03-28 20:33:41,966 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:33:41,968 INFO spawned: 'ssh-aws_07' with pid 89103
+2018-03-28 20:33:41,969 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:33:41,975 INFO spawned: 'ssh-aws_06' with pid 89108
+2018-03-28 20:33:41,975 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:33:41,976 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:33:41,978 INFO spawned: 'ssh-aws_05' with pid 89111
+2018-03-28 20:33:41,980 INFO spawned: 'ssh-aws_04' with pid 89112
+2018-03-28 20:33:41,981 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:33:41,981 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:33:41,983 INFO spawned: 'ssh-aws_09' with pid 89114
+2018-03-28 20:33:41,986 INFO spawned: 'ssh-aws_08' with pid 89116
+2018-03-28 20:33:42,997 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,997 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,997 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:33:42,998 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:57,897 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:34:57,899 INFO spawned: 'ssh-aws_03' with pid 89174
+2018-03-28 20:34:57,900 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:34:57,906 INFO spawned: 'ssh-aws_02' with pid 89175
+2018-03-28 20:34:57,907 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:34:57,910 INFO spawned: 'ssh-aws_01' with pid 89178
+2018-03-28 20:34:57,911 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:34:57,911 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:34:57,913 INFO spawned: 'ssh-aws_00' with pid 89181
+2018-03-28 20:34:57,915 INFO spawned: 'ssh-aws_07' with pid 89182
+2018-03-28 20:34:57,918 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:34:57,923 INFO spawned: 'ssh-aws_06' with pid 89187
+2018-03-28 20:34:57,924 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:34:57,924 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:34:57,927 INFO spawned: 'ssh-aws_05' with pid 89190
+2018-03-28 20:34:57,930 INFO spawned: 'ssh-aws_04' with pid 89191
+2018-03-28 20:34:57,931 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:34:57,931 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:34:57,935 INFO spawned: 'ssh-aws_09' with pid 89194
+2018-03-28 20:34:57,938 INFO spawned: 'ssh-aws_08' with pid 89197
+2018-03-28 20:34:58,949 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,949 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,950 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:34:58,951 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:13,004 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:36:13,119 INFO spawned: 'ssh-aws_03' with pid 89267
+2018-03-28 20:36:13,119 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:36:13,129 INFO spawned: 'ssh-aws_01' with pid 89270
+2018-03-28 20:36:13,136 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:36:13,140 INFO spawned: 'ssh-aws_00' with pid 89273
+2018-03-28 20:36:13,156 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:36:13,180 INFO spawned: 'ssh-aws_07' with pid 89276
+2018-03-28 20:36:13,181 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:36:13,191 INFO spawned: 'ssh-aws_02' with pid 89279
+2018-03-28 20:36:13,197 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:36:13,201 INFO spawned: 'ssh-aws_06' with pid 89282
+2018-03-28 20:36:13,215 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:36:13,238 INFO spawned: 'ssh-aws_08' with pid 89285
+2018-03-28 20:36:13,238 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:36:13,249 INFO spawned: 'ssh-aws_05' with pid 89288
+2018-03-28 20:36:13,257 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:36:13,258 INFO spawned: 'ssh-aws_04' with pid 89291
+2018-03-28 20:36:13,277 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:36:14,278 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,279 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:14,281 INFO spawned: 'ssh-aws_09' with pid 89294
+2018-03-28 20:36:14,282 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:36:15,292 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:29,253 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:37:30,255 INFO spawned: 'ssh-aws_01' with pid 89344
+2018-03-28 20:37:31,266 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:31,845 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:37:31,846 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:37:31,846 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:37:31,848 INFO spawned: 'ssh-aws_03' with pid 89347
+2018-03-28 20:37:31,852 INFO spawned: 'ssh-aws_02' with pid 89348
+2018-03-28 20:37:31,855 INFO spawned: 'ssh-aws_00' with pid 89349
+2018-03-28 20:37:31,856 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:37:31,856 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:37:31,857 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:37:31,857 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:37:31,857 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:37:31,857 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:37:31,863 INFO spawned: 'ssh-aws_07' with pid 89354
+2018-03-28 20:37:31,865 INFO spawned: 'ssh-aws_06' with pid 89356
+2018-03-28 20:37:31,867 INFO spawned: 'ssh-aws_05' with pid 89358
+2018-03-28 20:37:31,870 INFO spawned: 'ssh-aws_04' with pid 89359
+2018-03-28 20:37:31,873 INFO spawned: 'ssh-aws_09' with pid 89360
+2018-03-28 20:37:31,879 INFO spawned: 'ssh-aws_08' with pid 89364
+2018-03-28 20:37:32,894 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,894 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,894 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,895 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,895 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,895 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,895 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,895 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:37:32,895 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:47,249 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:38:48,252 INFO spawned: 'ssh-aws_02' with pid 89417
+2018-03-28 20:38:48,845 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:38:48,846 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:38:48,846 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:38:48,846 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:38:48,846 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:38:48,847 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:38:48,847 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:38:48,847 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:38:48,847 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:38:49,850 INFO spawned: 'ssh-aws_03' with pid 89420
+2018-03-28 20:38:49,850 INFO success: ssh-aws_02 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:49,852 INFO spawned: 'ssh-aws_01' with pid 89421
+2018-03-28 20:38:49,854 INFO spawned: 'ssh-aws_00' with pid 89422
+2018-03-28 20:38:49,857 INFO spawned: 'ssh-aws_07' with pid 89423
+2018-03-28 20:38:49,859 INFO spawned: 'ssh-aws_06' with pid 89426
+2018-03-28 20:38:49,861 INFO spawned: 'ssh-aws_05' with pid 89429
+2018-03-28 20:38:49,863 INFO spawned: 'ssh-aws_04' with pid 89432
+2018-03-28 20:38:49,866 INFO spawned: 'ssh-aws_09' with pid 89434
+2018-03-28 20:38:49,870 INFO spawned: 'ssh-aws_08' with pid 89436
+2018-03-28 20:38:50,886 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,886 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,886 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,886 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,886 INFO success: ssh-aws_06 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,886 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,887 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,887 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:38:50,887 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:03,654 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:40:04,657 INFO spawned: 'ssh-aws_02' with pid 89509
+2018-03-28 20:40:04,750 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:40:05,333 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:40:05,353 INFO spawned: 'ssh-aws_01' with pid 89512
+2018-03-28 20:40:05,354 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:40:05,363 INFO spawned: 'ssh-aws_03' with pid 89515
+2018-03-28 20:40:05,375 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:40:05,397 INFO spawned: 'ssh-aws_05' with pid 89518
+2018-03-28 20:40:05,398 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:40:05,410 INFO spawned: 'ssh-aws_00' with pid 89521
+2018-03-28 20:40:05,416 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:40:05,420 INFO spawned: 'ssh-aws_08' with pid 89524
+2018-03-28 20:40:05,436 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:40:05,455 INFO spawned: 'ssh-aws_04' with pid 89527
+2018-03-28 20:40:05,456 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:40:05,467 INFO spawned: 'ssh-aws_09' with pid 89530
+2018-03-28 20:40:05,474 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:40:05,477 INFO spawned: 'ssh-aws_07' with pid 89533
+2018-03-28 20:40:05,495 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:40:06,497 INFO success: ssh-aws_03 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,499 INFO spawned: 'ssh-aws_02' with pid 89537
+2018-03-28 20:40:06,500 INFO success: ssh-aws_01 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,500 INFO success: ssh-aws_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,500 INFO success: ssh-aws_07 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,502 INFO spawned: 'ssh-aws_06' with pid 89538
+2018-03-28 20:40:06,502 INFO success: ssh-aws_05 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,503 INFO success: ssh-aws_04 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,503 INFO success: ssh-aws_09 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:06,503 INFO success: ssh-aws_08 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-28 20:40:07,076 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:40:07,099 INFO spawned: 'ssh-aws_01' with pid 89544
+2018-03-28 20:40:07,100 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:40:07,110 INFO spawned: 'ssh-aws_09' with pid 89547
+2018-03-28 20:40:07,119 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:40:07,120 INFO spawned: 'ssh-aws_00' with pid 89550
+2018-03-28 20:40:07,137 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:40:07,159 INFO spawned: 'ssh-aws_08' with pid 89553
+2018-03-28 20:40:07,159 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:40:07,169 INFO spawned: 'ssh-aws_05' with pid 89556
+2018-03-28 20:40:07,179 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:40:07,181 INFO spawned: 'ssh-aws_07' with pid 89559
+2018-03-28 20:40:07,198 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:40:07,220 INFO spawned: 'ssh-aws_03' with pid 89562
+2018-03-28 20:40:07,221 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:40:07,232 INFO spawned: 'ssh-aws_04' with pid 89565
+2018-03-28 20:40:07,243 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:40:07,447 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:40:07,531 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:40:07,590 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:40:07,612 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:40:07,624 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:40:07,643 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:40:07,657 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:40:07,710 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:40:07,742 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:40:08,745 INFO spawned: 'ssh-aws_03' with pid 89570
+2018-03-28 20:40:08,748 INFO spawned: 'ssh-aws_01' with pid 89571
+2018-03-28 20:40:08,750 INFO spawned: 'ssh-aws_00' with pid 89572
+2018-03-28 20:40:08,752 INFO spawned: 'ssh-aws_07' with pid 89573
+2018-03-28 20:40:08,755 INFO spawned: 'ssh-aws_06' with pid 89575
+2018-03-28 20:40:08,757 INFO spawned: 'ssh-aws_05' with pid 89579
+2018-03-28 20:40:08,759 INFO spawned: 'ssh-aws_04' with pid 89582
+2018-03-28 20:40:08,762 INFO spawned: 'ssh-aws_09' with pid 89585
+2018-03-28 20:40:08,764 INFO spawned: 'ssh-aws_08' with pid 89587
+2018-03-28 20:40:09,296 INFO spawned: 'ssh-aws_02' with pid 89597
+2018-03-28 20:40:09,297 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:40:09,318 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:40:09,334 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:40:09,357 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:40:09,384 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:40:09,406 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:40:09,424 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:40:09,450 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:40:09,470 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:40:10,060 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:40:12,064 INFO spawned: 'ssh-aws_03' with pid 89600
+2018-03-28 20:40:12,066 INFO spawned: 'ssh-aws_01' with pid 89601
+2018-03-28 20:40:12,069 INFO spawned: 'ssh-aws_00' with pid 89602
+2018-03-28 20:40:12,071 INFO spawned: 'ssh-aws_07' with pid 89603
+2018-03-28 20:40:12,074 INFO spawned: 'ssh-aws_06' with pid 89606
+2018-03-28 20:40:12,076 INFO spawned: 'ssh-aws_05' with pid 89609
+2018-03-28 20:40:12,078 INFO spawned: 'ssh-aws_04' with pid 89612
+2018-03-28 20:40:12,081 INFO spawned: 'ssh-aws_09' with pid 89614
+2018-03-28 20:40:12,085 INFO spawned: 'ssh-aws_08' with pid 89617
+2018-03-28 20:40:12,702 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:40:12,718 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:40:12,742 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:40:12,762 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:40:12,795 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:40:12,816 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:40:12,834 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:40:12,855 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:40:12,876 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:40:13,879 INFO spawned: 'ssh-aws_02' with pid 89627
+2018-03-28 20:40:14,557 INFO exited: ssh-aws_02 (exit status 255; not expected)
+2018-03-28 20:40:15,558 INFO gave up: ssh-aws_02 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:16,561 INFO spawned: 'ssh-aws_03' with pid 89631
+2018-03-28 20:40:16,564 INFO spawned: 'ssh-aws_01' with pid 89632
+2018-03-28 20:40:16,566 INFO spawned: 'ssh-aws_00' with pid 89633
+2018-03-28 20:40:16,569 INFO spawned: 'ssh-aws_07' with pid 89634
+2018-03-28 20:40:16,572 INFO spawned: 'ssh-aws_06' with pid 89637
+2018-03-28 20:40:16,574 INFO spawned: 'ssh-aws_05' with pid 89640
+2018-03-28 20:40:16,576 INFO spawned: 'ssh-aws_04' with pid 89643
+2018-03-28 20:40:16,578 INFO spawned: 'ssh-aws_09' with pid 89646
+2018-03-28 20:40:16,581 INFO spawned: 'ssh-aws_08' with pid 89648
+2018-03-28 20:40:17,189 INFO exited: ssh-aws_03 (exit status 255; not expected)
+2018-03-28 20:40:17,195 INFO gave up: ssh-aws_03 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,196 INFO exited: ssh-aws_01 (exit status 255; not expected)
+2018-03-28 20:40:17,209 INFO gave up: ssh-aws_01 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,209 INFO exited: ssh-aws_00 (exit status 255; not expected)
+2018-03-28 20:40:17,226 INFO gave up: ssh-aws_00 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,226 INFO exited: ssh-aws_07 (exit status 255; not expected)
+2018-03-28 20:40:17,235 INFO gave up: ssh-aws_07 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,235 INFO exited: ssh-aws_06 (exit status 255; not expected)
+2018-03-28 20:40:17,249 INFO gave up: ssh-aws_06 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,249 INFO exited: ssh-aws_05 (exit status 255; not expected)
+2018-03-28 20:40:17,257 INFO gave up: ssh-aws_05 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,257 INFO exited: ssh-aws_04 (exit status 255; not expected)
+2018-03-28 20:40:17,273 INFO gave up: ssh-aws_04 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,273 INFO exited: ssh-aws_09 (exit status 255; not expected)
+2018-03-28 20:40:17,283 INFO gave up: ssh-aws_09 entered FATAL state, too many start retries too quickly
+2018-03-28 20:40:17,284 INFO exited: ssh-aws_08 (exit status 255; not expected)
+2018-03-28 20:40:18,284 INFO gave up: ssh-aws_08 entered FATAL state, too many start retries too quickly
