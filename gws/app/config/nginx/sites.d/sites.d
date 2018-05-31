@@ -1,0 +1,1 @@
+/opt/toy/gws/app/config/nginx/sites.d
